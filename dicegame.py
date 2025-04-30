@@ -7,7 +7,7 @@ import random  # generate random numbers
 
 def dice_game(num_rolls=10, num_players=2, highest_guess=4, guess=7):
     """
-    Dice game with various score multipliers that multiply by 2 if criteria meets the requirements, else reset to 1.
+    Dice game with various score multipliers that increases by 1 if criteria meets the requirements, else reset to 1.
     """
     scores = [0] * num_players  # set score to 0 for specified number of players
     score_multiplier = 1  # set score multiplier to 1
