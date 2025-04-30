@@ -16,11 +16,11 @@ def dice_game(num_rolls=10, num_players=2, highest_guess=4, guess=7):
     score_multiplier_for_highest_guess = (
         1  # set score multiplier for highest guess to 1
     )
-    # set score multiplier for sequenial dice to 1
+    # set score multiplier for sequential dice to 1
     score_multiplier_for_sequential = 1
     score_multiplier_for_close_dice = 1  # set score multiplier for close dice to 1
     score_multiplier_for_low_or_high = (
-        1  # set score multipler for low or high dice to 1
+        1  # set score multiplier for low or high dice to 1
     )
     for _ in range(num_rolls):  # repeat for each roll
         for player in range(num_players):  # repeat for each player
